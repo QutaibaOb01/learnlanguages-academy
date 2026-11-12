@@ -1,0 +1,30 @@
+{
+  "name": "Learn Languages Academy",
+  "short_name": "LL Academy",
+  "start_url": "./#learn",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F7FC",
+  "theme_color": "#5A48F5",
+  "description": "Learn Arabic, English, German, Spanish and French from A1 to C2: placement test, complete courses, daily practice and exam preparation for Goethe, ÖSD, TestDaF, IELTS, TOEFL, DELE, SIELE, DELF and DALF.",
+  "lang": "ar",
+  "dir": "auto",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
