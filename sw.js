@@ -1,5 +1,5 @@
-/* Learn Languages Academy service worker — 20261113-6058c9aa */
-const CACHE = 'lla-20261113-6058c9aa';
+/* Learn Languages Academy service worker — 20261114-1e760149 */
+const CACHE = 'lla-20261114-1e760149';
 const CORE = ['./', './index.html', './config.js', './icon.svg', './icon-192.png', './icon-512.png', './manifest.webmanifest', './vendor/firebase-app-compat.js', './vendor/firebase-auth-compat.js'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
